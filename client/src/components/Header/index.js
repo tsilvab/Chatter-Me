@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ const Header = () => {
         </Link>
         <p className="m-0" style={{ fontSize: '1.75rem', fontWeight: '700' }}>
           Meet your new programming pals.
+
         </p>
         <div>
           {Auth.loggedIn() ? (
